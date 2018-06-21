@@ -2,13 +2,14 @@
 .colorlink{color:black;}
 .brandhome{float:left;padding:16px 15px;font-size:20px;height:40px;margin-left:7%;}
 .rowalign{margin-right:0;margin-left:0;}
-.intro{margin-top:10%;}
+.intro{margin-top:8%;}
 .jumbo{margin-bottom:0rem;background-color:#ffffff;border-radius:.0px;}
 .jumbo1{background-color:#ffffff;border-radius:.0px;margin-top:-3%;}
 .jumbo5{background-color:#ffffff;border-radius:.0px;margin-top:-5%;}
 .jumbo4{background-color:#ffffff;border-radius:.0px;margin-top:-7%;}
 .jumbo2{background-color:#e1f2f678;border-radius:.0px;}
-.jumbo3{background-color:rgba(255, 255, 255, 0.47);border-radius:.0px;height:40vmax;}
+.jumbo7{background-color:#ffffff;border-radius:.0px;margin-top:-4%;}
+.jumbo3{background-color:rgba(255, 255, 255, 0.47);border-radius:.0px;margin-top: -4%}
 .jumbofoot{margin-top:1%;margin-bottom:0rem;background-color:#E8EBEF;border-radius:.0px;}
 .beer1{height:100%;width:100%;}
 .nav-colored{background-color:#ffffff;}
@@ -26,3 +27,4 @@
 .price{height:100%;box-shadow:0px 1px 3px rgba(0, 0, 0, 0.3);}
 .lis{position:relative;display:block;padding:.75rem 1.25rem;margin-bottom:-1px;background-color:#fff;}
 .proce{margin-left:35%;width:32%;}
+.role{width: 40%;margin-left: 32%}
