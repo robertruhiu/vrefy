@@ -25,14 +25,13 @@ module.exports = function (app, passport) {
         var cto = new Cto({
 
             username: req.body.username,
-            title: req.body.title,
-            email: req.body.email,
-            phone: req.body.phone,
-            country: req.body.country
+            company: req.body.company,
+            email: req.body.email
+
 
         });
         cto.save(function (err, result) {
-            req.flash('success','Application successful we will get back to you shortly.Thank you');
+            req.flash('success','Application successful we will get back to you shortly.Thank you!');
             res.redirect('/')
         })
 
@@ -51,13 +50,11 @@ module.exports = function (app, passport) {
         var dev = new Dev({
 
             username: req.body.username,
-            email: req.body.email,
-            phone: req.body.phone,
-            country: req.body.country
+            email: req.body.email
 
         });
         dev.save(function (err, result) {
-            req.flash('success','Application successful will get back to you shortly');
+            req.flash('success','Application successful will get back to you shortly.Thank you!');
             res.redirect('/')
         })
 
