@@ -28,11 +28,7 @@
 .lis{position:relative;display:block;padding:.75rem 1.25rem;margin-bottom:-1px;background-color:#fff;}
 .proce{margin-left:35%;width:32%;}
 .role{width: 40%;margin-left: 32%}
-.nav-tabs .nav-link.active {
-    color: #2524ff;
-    background-color: #fff;
-    /* border-color: #dee2e6 #dee2e6 #fff; */
-}
+.nav-tabs .nav-link.active {color: #2524ff;background-color: #fff; /* border-color: #dee2e6 #dee2e6 #fff; */}
 a {
     color: #000000;
     text-decoration: none;
