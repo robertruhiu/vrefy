@@ -18,7 +18,7 @@
 .how{min-width:20%;}
 .noed{border:0px;}
 .yum{width:100%;}
-.howcard{width:100%}
+.howcard{width:100%;border: 0px}
 .fly{border:0px}
 .benefit{width:30%;margin-bottom:5%;}
 .lang{width:40%;border:0px solid rgba(0,0,0,.125);}
@@ -28,3 +28,20 @@
 .lis{position:relative;display:block;padding:.75rem 1.25rem;margin-bottom:-1px;background-color:#fff;}
 .proce{margin-left:35%;width:32%;}
 .role{width: 40%;margin-left: 32%}
+.nav-tabs .nav-link.active {
+    color: #2524ff;
+    background-color: #fff;
+    /* border-color: #dee2e6 #dee2e6 #fff; */
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+.cad{width: 58%;margin-left: 22%}
